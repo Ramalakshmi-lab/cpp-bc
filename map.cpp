@@ -33,6 +33,7 @@ int main()
 	for(int i=0;i<4;i++)
 		mp[a[i]]++;
 	for(auto it:mp)
+		
 		cout<<it.first<<" "<<it.second<<"\n";
 	return 0;
 }
